@@ -5,7 +5,7 @@
 [Veiw Entire Project List](https://github.com/deep-model?tab=repositories)
 
 
-<img width="800" height="600" alt="image" src="https://github.com/deep-model/HSV-Induced-Image-Segmentation-for-Real-Time-Asset-Monitoring/blob/main/7%20-%20Tank%20Asset%20Integrity%20Monitoring%20with%20HSV%20Induced%20Segmentation.png"/>
+<img width="800" height="600" alt="image" src="https://github.com/deep-model/Computer-Vision-Based-Pipeline-Monitoring-with-HSV-Induced-Segmentation/blob/main/HSV%20Induced%20Pipeline%20Hot%20Spot%20Detection.png"/>
 
 ## Computer Vision Based Applications using HSV Segmentation
 HSV-based image segmentation is a powerful and efficient computer vision technique for monitoring asset performance which provides unsupervised and supervised AI rationalization in real-time using thermal forward-looking infrared (FLIR) imagery. Unlike traditional RGB color spaces, HSV (Hue, Saturation, Value) image segmentation separates color information from intensity, making it highly effective for isolating thermal signatures associated with fluid levels, surface temperatures, and structural variations which can be applied to liquid terminal storage tanks and many additional asset monitoring applications. 
