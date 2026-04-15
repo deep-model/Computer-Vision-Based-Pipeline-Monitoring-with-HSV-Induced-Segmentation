@@ -21,7 +21,7 @@ The figure below illustrates the HSV image segmentation process for HSV-based im
 <p align="left">
 <img width="400" height="300" alt="image" src="https://github.com/deep-model/Computer-Vision-Based-Pipeline-Monitoring-with-HSV-Induced-Segmentation/blob/main/FLIR%20Pipeline%20Image.png"/>
 <img width="400" height="300" alt="image" src="https://github.com/deep-model/Computer-Vision-Based-Pipeline-Monitoring-with-HSV-Induced-Segmentation/blob/main/Pipe%20HSV%20Hot%20Mask.png"/>
-<img width="400" height="300" alt="image" src="https://github.com/deep-model/Computer-Vision-Based-Pipeline-Monitoring-with-HSV-Induced-Segmentation/blob/main/Pipe%20HSV%20Segmented%20Areas%20of%20Interest.png"/>
+<img width="400" height="300" alt="image" src=""/>
 <img width="400" height="300" alt="image" src="https://github.com/deep-model/Computer-Vision-Based-Pipeline-Monitoring-with-HSV-Induced-Segmentation/blob/main/HSV%20Induced%20Pipeline%20Hot%20Spot%20Detection.png"/>
 </p>
 
