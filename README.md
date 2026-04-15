@@ -36,9 +36,9 @@ In thermal imaging, temperature variations are represented through color gradien
 In addition, the HSV image segmentation process begins by transforming the incoming thermal frame from RGB to HSV color space. Thresholding is then applied to isolate specific temperature bands by defining upper and lower HSV ranges corresponding to “hot,” “warm,” or “cool” regions. This configuration of color-temperature band thresholding is often pre-configured based on empirical testing and can be fine-tuned for the specific asset for performance enhancement. Once the thresholding is defined, binary masks are produced (e.g., hot masks or cool masks) which box significant areas of interest detected. Further morphological operations such as opening and closing are then applied to remove noise and enhance region continuity and segmentation, ensuring stable detection of tank boundaries and internal thermal zones.
 
 <p align="left">
-  
+
+<img width="400" height="300" alt="image" src="https://github.com/deep-model/Computer-Vision-Based-Pipeline-Monitoring-with-HSV-Induced-Segmentation/blob/main/Pipe%20HSV%20Hot%20Mask.png" />
 <img width="400" height="300" alt="image" src="https://github.com/deep-model/Computer-Vision-Based-Pipeline-Monitoring-with-HSV-Induced-Segmentation/blob/main/Pipe%20HSV%20Segmentation%20Mask.png" />
-<img width="400" height="300" alt="image" src="https://github.com/deep-model/HSV-Induced-Image-Segmentation-for-Real-Time-Asset-Monitoring/blob/main/4%20-%20Filtered%20HSV%20COOL%20Masking.png" />
 
 </p>
 
