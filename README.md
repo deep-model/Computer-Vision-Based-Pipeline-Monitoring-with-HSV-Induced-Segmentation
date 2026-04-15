@@ -2,7 +2,7 @@
 
 # Computer Vision Based Pipeline Monitoring with HSV Induced Segmentation
 
-[Veiw Entire Project List](https://github.com/deep-model?tab=repositories)
+## [Veiw Entire Project List](https://github.com/deep-model?tab=repositories)
 
 
 <img width="800" height="600" alt="image" src="https://github.com/deep-model/Computer-Vision-Based-Pipeline-Monitoring-with-HSV-Induced-Segmentation/blob/main/HSV%20Induced%20Pipeline%20Hot%20Spot%20Detection.png"/>
