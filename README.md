@@ -37,7 +37,7 @@ In addition, the HSV image segmentation process begins by transforming the incom
 
 <p align="left">
   
-<img width="400" height="300" alt="image" src="https://github.com/deep-model/HSV-Induced-Image-Segmentation-for-Real-Time-Asset-Monitoring/blob/main/4%20-%20Filtered%20HSV%20HOT%20Masking.png" />
+<img width="400" height="300" alt="image" src="https://github.com/deep-model/Computer-Vision-Based-Pipeline-Monitoring-with-HSV-Induced-Segmentation/blob/main/Pipe%20HSV%20Segmentation%20Mask.png" />
 <img width="400" height="300" alt="image" src="https://github.com/deep-model/HSV-Induced-Image-Segmentation-for-Real-Time-Asset-Monitoring/blob/main/4%20-%20Filtered%20HSV%20COOL%20Masking.png" />
 
 </p>
