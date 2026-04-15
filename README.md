@@ -18,15 +18,19 @@ The figure below illustrates the HSV image segmentation process for HSV-based im
 3. Apply segmentation to the image by analyzing specific objects and areas with HSV thresholding.
 4. Identify areas of interest with morphology to contour the segmented object or image. 
 
-<img width="800" height="600" alt="image" src="https://github.com/deep-model/HSV-Induced-Image-Segmentation-for-Real-Time-Asset-Monitoring/blob/main/HSV%20Process.png"/>
+<p align="left">
+<img width="400" height="300" alt="image" src="https://github.com/deep-model/Computer-Vision-Based-Pipeline-Monitoring-with-HSV-Induced-Segmentation/blob/main/FLIR%20Pipeline%20Image.png"/>
+<img width="400" height="300" alt="image" src="https://github.com/deep-model/Computer-Vision-Based-Pipeline-Monitoring-with-HSV-Induced-Segmentation/blob/main/FLIR%20Pipeline%20Image.png"/>
+<img width="400" height="300" alt="image" src="https://github.com/deep-model/Computer-Vision-Based-Pipeline-Monitoring-with-HSV-Induced-Segmentation/blob/main/FLIR%20Pipeline%20Image.png"/>
+<img width="400" height="300" alt="image" src="https://github.com/deep-model/Computer-Vision-Based-Pipeline-Monitoring-with-HSV-Induced-Segmentation/blob/main/FLIR%20Pipeline%20Image.png"/>
+</p>
+
 
 ## Color Gradients & Temperature Variations
 In thermal imaging, temperature variations are represented through color gradients typically including white and yellow for hot regions, red and orange for warm, and finally purple and blue for cooler areas. By transforming FLIR images into HSV dimensional space, these thermal color signatures can be segmented into distinct regions based on predefined thresholds. For example, warmer fluid regions within a tank may exhibit different thermal characteristics than vapor space or ambient surroundings, enabling indirect level detection through temperature stratification. This is evident in the Hot and Cold HSV saturated images processed in the computer vision model below.
 
-<p align="left">
-<img width="400" height="300" alt="image" src="https://github.com/deep-model/HSV-Induced-Image-Segmentation-for-Real-Time-Asset-Monitoring/blob/main/2-%20HOT%20Extraced%20Saturation.png"/>
-<img width="400" height="300" alt="image" src="https://github.com/deep-model/HSV-Induced-Image-Segmentation-for-Real-Time-Asset-Monitoring/blob/main/2-%20COLD%20Extraced%20Saturation.png"/>
-</p>
+<img width="800" height="600" alt="image" src="https://github.com/deep-model/Computer-Vision-Based-Pipeline-Monitoring-with-HSV-Induced-Segmentation/blob/main/FLIR%20Pipeline%20Image.png"/>
+
 
 ## HSV-Threshold Induced Image Segmentation with Object Masking
 In addition, the HSV image segmentation process begins by transforming the incoming thermal frame from RGB to HSV color space. Thresholding is then applied to isolate specific temperature bands by defining upper and lower HSV ranges corresponding to “hot,” “warm,” or “cool” regions. This configuration of color-temperature band thresholding is often pre-configured based on empirical testing and can be fine-tuned for the specific asset for performance enhancement. Once the thresholding is defined, binary masks are produced (e.g., hot masks or cool masks) which box significant areas of interest detected. Further morphological operations such as opening and closing are then applied to remove noise and enhance region continuity and segmentation, ensuring stable detection of tank boundaries and internal thermal zones.
